@@ -89,7 +89,7 @@ const Footer = () => {
                   </a>
                   <a
                     className='inline-block text-black-500 hover:text-black-600'
-                    href='#'
+                    href='https://www.linkedin.com/in/heshimakob'
                   >
                     <svg
                       width={18}

@@ -113,7 +113,7 @@ const Contact = () => {
                     className='text-lg text-coolGray-500 hover:text-coolGray-600 font-medium'
                     href='mailto:#'
                   >
-                    contact@flex.co
+                    heshimakob@gmail.com
                   </a>
                 </div>
               </div>
@@ -138,7 +138,7 @@ const Contact = () => {
                     Phone
                   </h3>
                   <p className='text-lg text-coolGray-500 hover:text-coolGray-600 font-medium'>
-                    +7-843-672-431
+                    +250790696440
                   </p>
                 </div>
               </div>

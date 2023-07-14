@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import styles from './Navbar.module.css';
 const Navbar = () => {
     return ( 
         <section className='bg-white' >
@@ -24,18 +25,20 @@ const Navbar = () => {
   </div>
 
   <div className='hidden xl:block xl:w-1/3'style={{ marginRight: '20%' }}>
+    <div className={styles.topnav}>
     <ul className='flex justify-center'>
       <li className='mr-12'>
-        <Link className='text-coolGray-500 hover:text-coolGray-900 font-medium' href="/">
+        <Link className={styles.hover_underline_animation} href="/about">
           Home
         </Link>
       </li>
       <li className='mr-12'>
-        <Link className='text-coolGray-500 hover:text-coolGray-900 font-medium' href='/contact'>
+        <Link className={styles.hover_underline_animation} href='/contact'>
           Contacts
         </Link>
       </li>
     </ul>
+    </div>
   </div>
 </div>
 

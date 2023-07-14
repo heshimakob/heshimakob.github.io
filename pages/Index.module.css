@@ -1,0 +1,20 @@
+.my_link{
+    background: #FFFFFF;
+    color:black;
+}
+.my_link::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #080806;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    transform: scaleX(0);
+
+}
+.my_link:hover::after{
+    transform: scaleX(1);
+
+}
