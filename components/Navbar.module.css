@@ -50,6 +50,9 @@
   .hover_underline_animation:hover::after {
     transform: scaleX(1);
   }
+
+
+  
 @media screen and (max-width: 600px) {
   .topnav Link:not(:first-child) {display: none;}
   .topnav Link.icon {

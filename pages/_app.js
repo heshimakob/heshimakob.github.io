@@ -16,8 +16,8 @@ stopDelayMs = { 200 }
 height = { 7 }  
 showOnShallow = { true }  
 / >
-  <Layout>  <Component {...pageProps} /></Layout>;
+  <Layout>  <Component {...pageProps} /></Layout>
   </>
-  ) ;
+  ) 
 
 }

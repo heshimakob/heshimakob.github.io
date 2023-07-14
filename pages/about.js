@@ -3,14 +3,19 @@ import Link from "next/link";
 import styles from "./Index.module.css"
 const About = () => {
     return ( 
-        <main className="main">
+        <main className="main"
+        styele={{
+            backgroundColor:"#F4F1F1",
+        }}
+        >
           <Head>
         <title>Heshima magalabaha ezra/Home</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <section
-          className="py-24 md:pb-28 bg-white"
+          className="py-24 md:pb-28 "
           style={{
+            
             backgroundImage:
               'linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("images/hello.jpg")',
             backgroundPosition: "center",
@@ -51,12 +56,13 @@ const About = () => {
         </section>
 
         <section
-          className="py-24 bg-white"
+          className="py-24"
           style={{
-            background: "rgb(2,0,36)",
-            background:
-              "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,240,239,1) 0%, rgba(231,250,228,1) 95%)",
-            backgroundRepeat: "no-repeat",
+            background:"#F4F1F1",
+            //background: "rgb(2,0,36)",
+          //  background:
+              //"linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,240,239,1) 0%, rgba(231,250,228,1) 95%)",
+           // backgroundRepeat: "no-repeat",
             backgroundPosition: "left top",
           }}
         >
@@ -145,13 +151,9 @@ const About = () => {
               </Link>
             </div>
             </div>
-           
             </div>
-          
-           
           </div>
         </section>
-       
       </main>
      );
 }

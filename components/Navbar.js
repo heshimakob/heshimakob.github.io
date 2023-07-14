@@ -14,7 +14,8 @@ const Navbar = () => {
       <div className='flex justify-between items-center w-full'
       >
   <div className='xl:w-1/3 flex items-center justify-center'>
-    <Link className='flex items-center' href='/' style={{ marginLeft: '65%' }}>
+    <div className={styles.topnav}>  
+    <Link className='flex items-center' href='/'>
       <img
         className='w-8 h-8 inline-block mr-2 rounded-full'
         src='images/profile.jpeg'
@@ -22,6 +23,7 @@ const Navbar = () => {
       />
       <span className='inline-block text-black-400'>Heshimakob</span>
     </Link>
+    </div>
   </div>
 
   <div className='hidden xl:block xl:w-1/3'style={{ marginRight: '20%' }}>
