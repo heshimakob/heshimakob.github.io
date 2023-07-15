@@ -42,11 +42,11 @@ const Contact = () => {
               src='images/profile.jpeg'
               alt=''
             />
-            <h3 className='mb-2 text-xl md:text-2xl font-semibold'>
-              Darren Dunlap
+            <h3 className='mb-2 text-xl md:text-2xl font-semibold text-white'>
+              Heshima Kob
             </h3>
-            <span className='text-lg text-coolGray-500 font-medium'>
-              CEO &amp; Founder at Flex.co
+            <span className='text-lg text-coolGray-500 font-medium text-white'>
+            Dev full-stack &amp; Network performances
             </span>
           </div>
           <div className='text-center'>
@@ -58,43 +58,21 @@ const Contact = () => {
       </section>
 
       <section
-        className='py-20 bg-white'
+        className='py-20 md:py-24 bg-white'
         style={{
           backgroundImage: 'url("flex-ui-assets/elements/pattern-white.svg")',
           backgroundPosition: 'center',
         }}
       >
         <div className='container px-4 mx-auto'>
-        <div className="md:max-w-5xl mx-auto mb-16 text-left">
-            <div className='w-full lg:w-1/2 mb-10 lg:mb-0'>
-              <span className='inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-9xl'>
-                Contact
-              </span>
-              <h3 className='mb-4 text-4xl md:text-5xl leading-tight text-darkCoolGray-900 font-bold tracking-tighter'>
-                Let’s stay connected
-              </h3>
-              <p className='text-lg md:text-xl text-coolGray-500 font-medium'>
-                We've all experienced the chaos of multiple spreadsheets,
-                tracking and insight tools, and scrambling for the right data at
-                the right time.
-              </p>
-            </div>
-            <div className='w-full lg:w-auto'>
-              <a
-                className='inline-block py-4 px-6 w-full md:w-auto text-lg leading-6 text-coolGray-50 font-medium text-center bg-black-500 hover:bg-green-600 focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md shadow-sm'
-                href='#'
-              >
-                Send Message
-              </a>
-            </div>
-            <div className='flex flex-wrap items-center -mx-4'>
-            <div className='w-full lg:w-1/2 px-4 mb-14 lg:mb-0'>
-              <div className='flex mb-18'>
-                <div className='inline-flex mr-6 items-center justify-center w-12 h-12 bg-black-500 rounded-full'>
+          <div className='flex flex-wrap -mx-4'>
+            <div className='w-full md:w-1/3 px-4 mb-12 md:mb-0'>
+              <div className='max-w-xs mx-auto text-center'>
+                <div className='inline-flex mb-6 items-center justify-center w-18 h-18 bg-green-500 rounded-full'>
                   <svg
-                    className='h-6 text-white'
-                    width={24}
-                    height={24}
+                    className='h-8 text-white'
+                    width={32}
+                    height={32}
                     viewBox='0 0 24 24'
                     fill='none'
                     xmlns='http://www.w3.org/2000/svg'
@@ -105,24 +83,27 @@ const Contact = () => {
                     />
                   </svg>
                 </div>
-                <div className='mt-2'>
-                  <h3 className='mb-2 text-2xl md:text-3xl leading-9 text-coolGray-900 font-bold'>
-                    Email
-                  </h3>
-                  <a
-                    className='text-lg text-coolGray-500 hover:text-coolGray-600 font-medium'
-                    href='mailto:#'
-                  >
-                    heshimakob@gmail.com
-                  </a>
-                </div>
+                <h3 className='mb-2 text-2xl md:text-3xl leading-9 text-coolGray-900 font-bold'>
+                  Email
+                </h3>
+                <p className='mb-4 text-lg md:text-xl font-medium text-coolGray-500 leading-7'>
+                  Lorem ipsum dolor sit amet
+                </p>
+                <a
+                  className='text-lg md:text-xl text-green-500 hover:text-green-600 font-medium'
+                  href='mailto:heshimakob@gmail.com'
+                >
+                  heshimako@gmail.com
+                </a>
               </div>
-              <div className='flex mb-18'>
-                <div className='inline-flex mr-6 items-center justify-center w-12 h-12 bg-black-500 rounded-full'>
+            </div>
+            <div className='w-full md:w-1/3 px-4 mb-12 md:mb-0'>
+              <div className='max-w-xs mx-auto text-center'>
+                <div className='inline-flex mb-6 items-center justify-center w-18 h-18 bg-green-500 rounded-full'>
                   <svg
-                    className='h-6 text-white'
-                    width={24}
-                    height={24}
+                    className='h-8 text-white'
+                    width={32}
+                    height={32}
                     viewBox='0 0 24 24'
                     fill='none'
                     xmlns='http://www.w3.org/2000/svg'
@@ -133,48 +114,49 @@ const Contact = () => {
                     />
                   </svg>
                 </div>
-                <div className='mt-2'>
-                  <h3 className='mb-2 text-2xl md:text-3xl leading-9 text-coolGray-900 font-bold'>
-                    Phone
-                  </h3>
-                  <p className='text-lg text-coolGray-500 hover:text-coolGray-600 font-medium'>
-                    +250790696440
-                  </p>
-                </div>
+                <h3 className='mb-2 text-2xl md:text-3xl leading-9 text-coolGray-900 font-bold'>
+                  Phone
+                </h3>
+                <p className='mb-4 text-lg md:text-xl font-medium text-coolGray-500 leading-7'>
+                  Lorem ipsum dolor sit amet
+                </p>
+                <p className='text-lg md:text-xl text-green-500 font-medium'>
+                  +243999401974
+                </p>
               </div>
-              <div className='flex'>
-                <div className='inline-flex mr-6 items-center justify-center w-12 h-12 bg-black-500 rounded-full'>
+            </div>
+            <div className='w-full md:w-1/3 px-4'>
+              <div className='max-w-xs mx-auto text-center'>
+                <div className='inline-flex mb-6 items-center justify-center w-18 h-18 bg-green-500 rounded-full'>
                   <svg
-                    className='h-6 text-white'
-                    width={24}
-                    height={24}
+                    className='h-8 text-white'
+                    width={32}
+                    height={32}
                     viewBox='0 0 24 24'
                     fill='none'
                     xmlns='http://www.w3.org/2000/svg'
                   >
                     <path
-                      d='M21 2H3C2.73478 2 2.48043 2.10536 2.29289 2.29289C2.10536 2.48043 2 2.73478 2 3V21C2 21.2652 2.10536 21.5196 2.29289 21.7071C2.48043 21.8946 2.73478 22 3 22H21C21.2652 22 21.5196 21.8946 21.7071 21.7071C21.8946 21.5196 22 21.2652 22 21V3C22 2.73478 21.8946 2.48043 21.7071 2.29289C21.5196 2.10536 21.2652 2 21 2V2ZM8 20H4V16H8V20ZM8 14H4V10H8V14ZM8 8H4V4H8V8ZM14 20H10V16H14V20ZM14 14H10V10H14V14ZM14 8H10V4H14V8ZM20 20H16V16H20V20ZM20 14H16V10H20V14ZM20 8H16V4H20V8Z'
+                      d='M18.0001 4.48C16.4088 2.8887 14.2505 1.99472 12.0001 1.99472C9.74961 1.99472 7.59135 2.8887 6.00005 4.48C4.40875 6.0713 3.51477 8.22957 3.51477 10.48C3.51477 12.7304 4.40875 14.8887 6.00005 16.48L11.2701 21.76C11.363 21.8537 11.4736 21.9281 11.5955 21.9789C11.7173 22.0297 11.848 22.0558 11.9801 22.0558C12.1121 22.0558 12.2428 22.0297 12.3646 21.9789C12.4865 21.9281 12.5971 21.8537 12.6901 21.76L18.0001 16.43C19.5847 14.8453 20.4749 12.6961 20.4749 10.455C20.4749 8.21395 19.5847 6.06468 18.0001 4.48ZM16.5701 15L12.0001 19.59L7.43005 15C6.5272 14.0963 5.91253 12.9452 5.66375 11.6923C5.41497 10.4393 5.54324 9.14075 6.03236 7.96068C6.52147 6.78062 7.34947 5.77205 8.41168 5.06248C9.4739 4.35291 10.7226 3.97418 12.0001 3.97418C13.2775 3.97418 14.5262 4.35291 15.5884 5.06248C16.6506 5.77205 17.4786 6.78062 17.9677 7.96068C18.4569 9.14075 18.5851 10.4393 18.3364 11.6923C18.0876 12.9452 17.4729 14.0963 16.5701 15ZM9.00005 7.41C8.19277 8.21977 7.73945 9.31657 7.73945 10.46C7.73945 11.6034 8.19277 12.7002 9.00005 13.51C9.59981 14.1108 10.3636 14.5211 11.1957 14.6894C12.0278 14.8577 12.891 14.7766 13.6771 14.4562C14.4632 14.1357 15.1372 13.5903 15.6145 12.8883C16.0918 12.1862 16.3512 11.3589 16.3601 10.51C16.3646 9.94321 16.2554 9.38126 16.039 8.85739C15.8225 8.33352 15.5033 7.85836 15.1001 7.46C14.7037 7.05458 14.2311 6.73154 13.7095 6.50947C13.1878 6.2874 12.6274 6.17068 12.0605 6.16603C11.4935 6.16138 10.9313 6.2689 10.406 6.48239C9.8808 6.69588 9.40297 7.01113 9.00005 7.41ZM13.6901 12.09C13.3111 12.4747 12.8103 12.7159 12.2732 12.7723C11.7361 12.8286 11.1961 12.6966 10.7456 12.3989C10.295 12.1012 9.96185 11.6562 9.80306 11.1401C9.64427 10.6239 9.6697 10.0686 9.87501 9.56916C10.0803 9.06967 10.4528 8.65702 10.9286 8.40174C11.4045 8.14646 11.9543 8.06441 12.484 8.16962C13.0137 8.27483 13.4904 8.56076 13.8326 8.97853C14.1748 9.39631 14.3612 9.91997 14.3601 10.46C14.3455 11.0773 14.0865 11.6635 13.6401 12.09H13.6901Z'
                       fill='currentColor'
                     />
                   </svg>
                 </div>
-               
+                <h3 className='mb-2 text-2xl md:text-3xl leading-9 text-coolGray-900 font-bold'>
+                  Location
+                </h3>
+                <p className='mb-4 text-xl font-medium text-coolGray-500 leading-7'>
+                  Lorem ipsum dolor sit amet
+                </p>
+                <p className='text-lg md:text-xl font-medium text-green-500'>
+                  Rwanda, KIgali
+                </p>
+                <p className='text-lg md:text-xl font-medium text-green-500'>
+                  RDC, Goma
+                </p>
               </div>
             </div>
-            <div className='w-full lg:w-1/2 px-4'>
-            <iframe
-  src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d255200.04961356518!2d30.1006848!3d-1.9529728!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2srw!4v1689075166065!5m2!1sfr!2srw"
-  width={600}
-  height={450}
-  style={{border: '0'}}
-  allowFullScreen
-  loading="lazy"
-  referrerPolicy="no-referrer-when-downgrade"
-></iframe>
-            </div>
           </div>
-          </div>
-      
         </div>
       </section>
       </main>
