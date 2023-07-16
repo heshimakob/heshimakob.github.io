@@ -91,7 +91,7 @@ const Contact = () => {
                 </p>
                 <a
                   className='text-lg md:text-xl text-green-500 hover:text-green-600 font-medium'
-                  href='mailto:heshimakob@gmail.com'
+                  href="https://mail.google.com/mail/u/0/#inbox"
                 >
                   heshimako@gmail.com
                 </a>
@@ -119,6 +119,9 @@ const Contact = () => {
                 </h3>
                 <p className='mb-4 text-lg md:text-xl font-medium text-coolGray-500 leading-7'>
                   Lorem ipsum dolor sit amet
+                </p>
+                <p className='text-lg md:text-xl text-green-500 font-medium'>
+                  +250790696440
                 </p>
                 <p className='text-lg md:text-xl text-green-500 font-medium'>
                   +243999401974
