@@ -81,7 +81,7 @@ const About = () => {
                 secure platform.
               </p>
               <div className="flex flex-wrap -mx-4 mb-12 md:mb-20 text-left">
-              <div className="w-full md:w-1/2 px-4 mb-8 bg-white rounded-md">
+              <div className="w-full md:w-1/2 px-4 mb-8 bg-white rounded-md animate-fade-in">
               <Link className="block mb-6 overflow-hidden rounded-md text-left bg-white" href="#">
                 <img className="w-full h-[200px] object-cover  rounded-xl"  src="images/images.jpeg" />
                 </Link>
