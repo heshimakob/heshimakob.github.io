@@ -42,7 +42,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #080806;
+    background-color: #141313 !important;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
     transform: scaleX(0);
@@ -54,7 +54,7 @@
     .topnav Link{
         float: right !important;
   display: block !important; 
-  color: #2a2828 !important;
+  color: #141313 !important;
   text-align: center !important;
   padding: 3px 3px !important;
   text-decoration: none !important;
