@@ -1,6 +1,13 @@
 import Head from "next/head";
-import { motion } from "framer-motion";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 const Contact = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Durée de l'animation en millisecondes
+    });
+  }, []);
     return ( 
       <main className="main">
         <Head>
@@ -66,23 +73,9 @@ const Contact = () => {
         }}
       >
         <div className='container px-4 mx-auto'>
-          <div className='flex flex-wrap -mx-4'>
-            <div className='w-full md:w-1/3 px-4 mb-12 md:mb-0'>
-            <motion.div
-          initial={{
-            opacity: 0,
-            y: 20
-          }}
-          animate={{
-            opacity: 1,
-            y: 0
-          }}
-          transition={{
-            duration: 0.8
-          }}
-          className='max-w-xs mx-auto text-center'
-        >
-              <div className='max-w-xs mx-auto text-center'>
+          <div className='flex flex-wrap -mx-4' >
+            <div className='w-full md:w-1/3 px-4 mb-12 md:mb-0' data-aos="fade-up" data-aos-delay="200">
+          <div className='max-w-xs mx-auto text-center'>
                 <div className='inline-flex mb-6 items-center justify-center w-18 h-18 bg-green-500 rounded-full'>
                   <svg
                     className='h-8 text-white'
@@ -111,24 +104,9 @@ const Contact = () => {
                   heshimako@gmail.com
                 </a>
               </div>
-              </motion.div>
             </div>
             <div className='w-full md:w-1/3 px-4 mb-12 md:mb-0'>
 
-            <motion.div
-          initial={{
-            opacity: 0,
-            y: 20
-          }}
-          animate={{
-            opacity: 1,
-            y: 0
-          }}
-          transition={{
-            duration: 0.8
-          }}
-          className='max-w-xs mx-auto text-center'
-        >
               <div className='max-w-xs mx-auto text-center'>
                 <div className='inline-flex mb-6 items-center justify-center w-18 h-18 bg-green-500 rounded-full'>
                   <svg
@@ -158,24 +136,11 @@ const Contact = () => {
                   +243999401974
                 </p>
               </div>
-              </motion.div>
+            
             </div>
             <div className='w-full md:w-1/3 px-4'>
-            <motion.div
-          initial={{
-            opacity: 0,
-            y: 20
-          }}
-          animate={{
-            opacity: 1,
-            y: 0
-          }}
-          transition={{
-            duration: 0.8
-          }}
-          className='max-w-xs mx-auto text-center'
-        >
-              <div className='max-w-xs mx-auto text-center'>
+            
+              <div className='max-w-xs mx-auto text-center' data-aos="fade-up" data-aos-delay="200">
                 <div className='inline-flex mb-6 items-center justify-center w-18 h-18 bg-green-500 rounded-full'>
                   <svg
                     className='h-8 text-white'
@@ -204,7 +169,7 @@ const Contact = () => {
                   RDC, Goma
                 </p>
               </div>
-              </motion.div>
+              
             </div>
           </div>
         </div>
