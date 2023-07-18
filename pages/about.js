@@ -1,7 +1,15 @@
 import Head from "next/head";
 import Link from "next/link";
+import { useEffect } from "react";
 import styles from "./Index.module.css"
+import AOS from "aos";
+import "aos/dist/aos.css";
 const About = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Durée de l'animation en millisecondes
+    });
+  }, []);
     return ( 
         <main className="main"
         styele={{
@@ -81,7 +89,7 @@ const About = () => {
                 secure platform.
               </p>
               <div className="flex flex-wrap -mx-4 mb-12 md:mb-20 text-left">
-              <div className="w-full md:w-1/2 px-4 mb-8 bg-white rounded-md animate-fade-in">
+              <div className="w-full md:w-1/2 px-4 mb-8 bg-white rounded-md " data-aos="fade-up" data-aos-delay="200">
               <Link className="block mb-6 overflow-hidden rounded-md text-left bg-white" href="#">
                 <img className="w-full h-[200px] object-cover  rounded-xl"  src="images/images.jpeg" />
                 </Link>
@@ -96,7 +104,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-full md:w-1/2 px-4 mb-8 bg-white rounded-md">
+              <div className="w-full md:w-1/2 px-4 mb-8 bg-white rounded-md " data-aos="fade-up" data-aos-delay="200">
               <Link className="block mb-6 overflow-hidden rounded-md text-left " href="#">
                 <img className="w-full h-[200px] object-cover  rounded-xl"  src="images/imagess.jpeg" />
                 </Link>
@@ -113,7 +121,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-full md:w-1/2 px-4 mb-8 bg-white">
+              <div className="w-full md:w-1/2 px-4 mb-8 bg-white rounded-md " data-aos="fade-up" data-aos-delay="200" >
               <Link className="block mb-6 overflow-hidden rounded-md text-left " href="#">
                 <img className="w-full h-[200px] object-cover  rounded-xl"  src="images/imag.jpeg" />
                 </Link>
@@ -128,7 +136,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-full md:w-1/2 px-4 mb-8 bg-white">
+              <div className="w-full md:w-1/2 px-4 mb-8 bg-white rounded-md " data-aos="fade-up" data-aos-delay="200">
               <Link className="block mb-6 overflow-hidden rounded-md text-left bg-white" href="#">
                 <img className="w-full h-[200px] object-cover  rounded-xl"  src="images/meta.jpg" />
                 </Link>

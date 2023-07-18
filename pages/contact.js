@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { motion } from "framer-motion";
 const Contact = () => {
     return ( 
       <main className="main">
@@ -67,6 +68,20 @@ const Contact = () => {
         <div className='container px-4 mx-auto'>
           <div className='flex flex-wrap -mx-4'>
             <div className='w-full md:w-1/3 px-4 mb-12 md:mb-0'>
+            <motion.div
+          initial={{
+            opacity: 0,
+            y: 20
+          }}
+          animate={{
+            opacity: 1,
+            y: 0
+          }}
+          transition={{
+            duration: 0.8
+          }}
+          className='max-w-xs mx-auto text-center'
+        >
               <div className='max-w-xs mx-auto text-center'>
                 <div className='inline-flex mb-6 items-center justify-center w-18 h-18 bg-green-500 rounded-full'>
                   <svg
@@ -96,8 +111,24 @@ const Contact = () => {
                   heshimako@gmail.com
                 </a>
               </div>
+              </motion.div>
             </div>
             <div className='w-full md:w-1/3 px-4 mb-12 md:mb-0'>
+
+            <motion.div
+          initial={{
+            opacity: 0,
+            y: 20
+          }}
+          animate={{
+            opacity: 1,
+            y: 0
+          }}
+          transition={{
+            duration: 0.8
+          }}
+          className='max-w-xs mx-auto text-center'
+        >
               <div className='max-w-xs mx-auto text-center'>
                 <div className='inline-flex mb-6 items-center justify-center w-18 h-18 bg-green-500 rounded-full'>
                   <svg
@@ -127,8 +158,23 @@ const Contact = () => {
                   +243999401974
                 </p>
               </div>
+              </motion.div>
             </div>
             <div className='w-full md:w-1/3 px-4'>
+            <motion.div
+          initial={{
+            opacity: 0,
+            y: 20
+          }}
+          animate={{
+            opacity: 1,
+            y: 0
+          }}
+          transition={{
+            duration: 0.8
+          }}
+          className='max-w-xs mx-auto text-center'
+        >
               <div className='max-w-xs mx-auto text-center'>
                 <div className='inline-flex mb-6 items-center justify-center w-18 h-18 bg-green-500 rounded-full'>
                   <svg
@@ -158,6 +204,7 @@ const Contact = () => {
                   RDC, Goma
                 </p>
               </div>
+              </motion.div>
             </div>
           </div>
         </div>
