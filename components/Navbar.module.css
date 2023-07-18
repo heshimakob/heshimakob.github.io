@@ -64,7 +64,7 @@
 
 }
 @media screen and (max-width: 600px) {
-  .topnav Link:not(:first-child) {display: none;}
+  .topnav Link:not(:first-child) {display:inline-block;}
   .topnav Link.icon {
     float: right !important;
     display: block !important;

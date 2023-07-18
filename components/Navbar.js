@@ -3,14 +3,8 @@ import styles from './Navbar.module.css';
 const Navbar = () => {
     return ( 
         <section className='bg-white responsive' >
-      <nav className='fixed top-0 left-0 w-full flex justify-between p-6 px-4 border-b-1  topnav'
-             style={{
-              background: "rgb(2,0,36)",
-              background:
-                "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(249,255,240,1) 0%, rgba(231,250,228,1) 95%)",
-              backgroundRepeat: "no-repeat",
-              backgroundPosition: "left top", 
-            }}>
+      <nav className='fixed top-0 left-0 w-full flex justify-between p-6 px-4 border-b-1 bg-white ' style={{ backdropFilter: 'blur(10px)', 
+      zIndex: '1'}}>
       <div className='flex justify-between items-center w-full'
       >
   <div className='xl:w-1/3 flex items-center justify-center'>
@@ -21,11 +15,11 @@ const Navbar = () => {
         src='images/profile.jpeg'
         alt=''
       />
-      <span className='inline-block text-black-400'>Heshimakob</span>
+      <span className='hidden xl:block xl:w-1/3 inline-block text-black-400'>Heshimakob</span>
     </Link>
   </div>
 
-  <div className='hidden xl:block xl:w-1/3'style={{ marginRight: '20%' }}>
+  <div className=' xl:block xl:w-1/3 justify-right'>
     <div className={styles.topnav}>
     <ul className='flex justify-center'>
       <li className='mr-12'>
