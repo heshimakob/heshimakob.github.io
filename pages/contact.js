@@ -105,7 +105,7 @@ const Contact = () => {
                 </a>
               </div>
             </div>
-            <div className='w-full md:w-1/3 px-4 mb-12 md:mb-0'>
+            <div className='w-full md:w-1/3 px-4 mb-12 md:mb-0' data-aos="fade-up" data-aos-delay="200">
 
               <div className='max-w-xs mx-auto text-center'>
                 <div className='inline-flex mb-6 items-center justify-center w-18 h-18 bg-green-500 rounded-full'>
