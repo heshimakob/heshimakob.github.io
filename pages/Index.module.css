@@ -1,20 +1,46 @@
-.my_link{
-    background: #FFFFFF;
-    color:black;
-}
-.my_link::after{
-    content: '';
-    position: absolute;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #080806;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-    transform: scaleX(0);
-
-}
-.my_link:hover::after{
-    transform: scaleX(1);
-
-}
+.lien Link{
+    float: left !important;
+    display: block !important; 
+    color: #121212 !important;
+    text-align: center !important;
+    padding: 14px 16px !important;
+    text-decoration: none !important;
+    font-size: 17px !important;
+  }
+  
+  /* Change the color of links on hover */
+  .lien Link:hover {
+    background-color: #ddd !important;
+    color: rgb(200, 147, 147) !important;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .lien Link.active {
+    background-color: #a2ebd0 !important;
+    color: white !important;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .lien .icon {
+    display: none;
+  }
+  .lien .hover_underline_animation{
+      position: relative;
+      color: gray;
+      text-decoration: none;
+    }
+    .hover_underline_animation::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #141313 !important;
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+      transform: scaleX(0);
+    }
+    .hover_underline_animation:hover::after {
+      transform: scaleX(1);
+    }

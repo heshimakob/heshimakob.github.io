@@ -88,6 +88,7 @@ const Home = () => {
                 invoicing capabilities, you can manage your business in one
                 secure platform.
               </p>
+              
               <div className="flex flex-wrap -mx-4 mb-12 md:mb-20 text-left">
               <div className="w-full md:w-1/2 px-4 mb-8 bg-white rounded-md " data-aos="fade-up" data-aos-delay="200">
               <Link className="block mb-6 overflow-hidden rounded-md text-left bg-white" href="#">
@@ -97,8 +98,10 @@ const Home = () => {
                   <div className="flex flex-col justify-between h-full">
                     <div className="flex-initial mb-8">
                       <p className="mb-3 text-xs text-gray-500 font-semibold">3 days ago</p>
-                      <Link className="--no-underline group inline-block mb-4" href="#">hackathon, meta in the city of Goma / DRC, implementation of an application 
+                      <div className={styles.lien}>
+                      <Link className={styles.hover_underline_animation}  href="#">hackathon, meta in the city of Goma / DRC, implementation of an application 
                       for reading and viewing 3D objects and augmented reality </Link>
+                    </div>
                     </div>
 
                   </div>
@@ -112,10 +115,12 @@ const Home = () => {
                   <div className="flex flex-col justify-between h-full">
                     <div className="flex-initial mb-8">
                       <p className="mb-3 text-xs text-gray-500 font-semibold">6 months ago</p>
+                      <div className={styles.lien}>
                       
-                      <Link className={styles.my_link} href="#"> Unicef ​​hackathon project in partnership with rabshstability,
+                      <Link className={styles.hover_underline_animation}  href="#"> Unicef ​​hackathon project in partnership with rabshstability,
                        on nutrition exposure: a cpn management app</Link>
           
+                    </div>
                     </div>
 
                   </div>
@@ -129,8 +134,9 @@ const Home = () => {
                   <div className="flex flex-col justify-between h-full">
                     <div className="flex-initial mb-8">
                       <p className="mb-3 text-xs text-gray-500 font-semibold">8 months ago</p>
-                      
-                      <Link  className="--no-underline group inline-block mb-4" href="#"> University license research work, setting up a network driven by software developed in python</Link>
+                      <div className={styles.lien}>
+                      <Link  className={styles.hover_underline_animation}  href="#"> University license research work, setting up a network driven by software developed in python</Link>
+                      </div>
                     </div>
 
                   </div>
@@ -144,8 +150,11 @@ const Home = () => {
                   <div className="flex flex-col justify-between h-full">
                     <div className="flex-initial mb-8">
                       <p className="mb-3 text-xs text-gray-500 font-semibold">1 year ago</p>
-                      <Link className="--no-underline group inline-block mb-4" href="#">wit-xr studio hackathon, Goma/DRC on augmented reality and mixed reality, application designed Afrika jungle.</Link>
+                      <div className={styles.lien}>
+                      <Link className={styles.hover_underline_animation} href="#">wit-xr studio hackathon, Goma/DRC on augmented reality and mixed reality, application designed Afrika jungle.</Link>
                     </div>
+                    </div>
+
 
                   </div>
                 </div>
@@ -160,7 +169,7 @@ const Home = () => {
             </div>
             </div>
             </div>
-          </div>
+            </div>
         </section>
       </main>
      );
