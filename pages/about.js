@@ -1,39 +1,169 @@
-import Head from "next/head";
-import Link from "next/link";
-import styles from "./Index.module.css"
+import "aos/dist/aos.css";
+import AOS from "aos";
+import { useEffect } from "react";
 const About = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Durée de l'animation en millisecondes
+    });
+  }, []);
   return (  
-    
-    <section>
-    <div className="skew skew-top mr-for-radius">
-      <svg className="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewBox="0 0 10 10" preserveAspectRatio="none">
-        <polygon fill="currentColor" points="0 0 10 10 0 10"></polygon>
-      </svg>
-    </div>
-    <div className="skew skew-top ml-for-radius">
-      <svg className="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewBox="0 0 10 10" preserveAspectRatio="none">
-        <polygon fill="currentColor" points="0 10 10 0 10 10"></polygon>
-      </svg>
-    </div>
-    <div className="py-20 bg-gray-50 radius-for-skewed">
-      <div className="container mx-auto px-4">
-        <img className="mx-auto" src="atis-assets/illustrations/pablo.png" alt="" />
-        <div className="text-center">
-          <span className="mb-6 text-4xl text-red-600 font-bold">Oups !</span>
-          <h3 className="mb-2 text-4xl font-bold">
-Sorry we are undergoing maintenance
-</h3>
-          <p className="mb-8 text-gray-400">Please contact us on our email: <a href="https://mail.google.com/mail/u/0/#inbox">Writte me</a></p>
-          <div>
-            <Link className="w-full lg:w-auto mb-2 lg:mb-0 lg:mr-4 inline-block py-2 px-6 rounded-l-xl rounded-t-xl font-bold leading-loose text-gray-50 bg-red-500 hover:bg-red-700" href="/contact" >See my contacts </Link>
-            <Link className="w-full lg:w-auto inline-block py-2 px-6 rounded-l-xl rounded-t-xl font-bold leading-loose bg-white hover:bg-gray-50" href="/"></Link>
+    <main className="main">
+       <section
+        className='py-24 md:pb-28 bg-white'
+        style={{
+          backgroundImage: 'url("images/hello.jpg")',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className='container px-4 mx-auto'>
+          <div className='flex flex-wrap -mx-4'>
+            <div className='w-full lg:w-1/2 px-4 mb-10 lg:mb-0'>
+              <div className='relative h-full overflow-hidden max-w-max mx-auto rounded-md' data-aos="fade-up" data-aos-delay="200">
+                <button className='absolute z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 inline-flex items-center justify-center w-16 h-16 bg-green-500 hover:bg-green-600 rounded-full'>
+                  <svg
+                    className='ml-1'
+                    width={17}
+                    height={20}
+                    viewBox='0 0 17 20'
+                    fill='none'
+                    xmlns='http://www.w3.org/2000/svg'
+                  >
+                    <path
+                      d='M15.5 9.13001L1.50001 1.05001C1.34799 0.962237 1.17554 0.916031 1.00001 0.916031C0.824471 0.916031 0.652027 0.962237 0.500008 1.05001C0.347404 1.13811 0.220789 1.26497 0.132986 1.41775C0.0451825 1.57053 -0.000691684 1.7438 7.88292e-06 1.92001V18.08C-0.000691684 18.2562 0.0451825 18.4295 0.132986 18.5823C0.220789 18.735 0.347404 18.8619 0.500008 18.95C0.652027 19.0378 0.824471 19.084 1.00001 19.084C1.17554 19.084 1.34799 19.0378 1.50001 18.95L15.5 10.87C15.6539 10.7828 15.7819 10.6563 15.871 10.5035C15.96 10.3506 16.007 10.1769 16.007 10C16.007 9.82311 15.96 9.64938 15.871 9.49654C15.7819 9.3437 15.6539 9.21722 15.5 9.13001ZM2.00001 16.35V3.65001L13 10L2.00001 16.35Z'
+                      fill='white'
+                    />
+                  </svg>
+                </button>
+          
+                <img
+                  src='images/profile.jpeg'
+                  alt=''
+                />
+               
+               
+              </div>
+            </div>
+            <div className='w-full lg:w-1/2 px-4'>
+              <span className='inline-block py-px px-2 sm:ml-6 md:mb-16 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-9xl'>
+                Quotes
+              </span>
+              <div className='relative pt-12 pb-6 sm:p-6 mb-8'>
+                <img
+                  className='absolute top-0 left-0'
+                  src='flex-ui-assets/elements/testimonials/quote-top-green.svg'
+                  alt=''
+                />
+                <img
+                  className='absolute bottom-0 right-0'
+                  src='flex-ui-assets/elements/testimonials/quote-down-green.svg'
+                  alt=''
+                />
+                <div className='relative'>
+                  <h2 className='text-2xl md:text-4xl font-semibold tracking-tighter'>
+                    The best solution for anyone who wants to work a flexible
+                    schedule but still earn a full-time income.
+                  </h2>
+                </div>
+              </div>
+              <div className='sm:px-6 mb-14'>
+                <h3 className='mb-2 text-xl md:text-2xl font-semibold'>
+                  HESHIMA MAGALABAHA Ezra
+                </h3>
+                <span className='text-lg text-coolGray-500 font-medium'>
+                  CEO &amp; Founder at Fluid Corporation
+                </span>
+              </div>
+              <div className='sm:px-6'>
+                <button className='inline-block h-3 w-3 mr-3 rounded-full bg-coolGray-100' />
+                <button className='inline-block h-3 w-3 mr-3 rounded-full bg-green-500' />
+                <button className='inline-block h-3 w-3 rounded-full bg-coolGray-100' />
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-   
-  </section>
-  
+      </section>
+    <section
+        className='py-24 bg-white overflow-hidden'
+        style={{
+          backgroundColor: "#FFFFFF",
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className='container px-4 mx-auto'>
+          <div className='flex flex-wrap -mx-4'>
+            <div className='w-full md:w-1/2 px-4 mb-16 md:mb-0' data-aos="fade-up" data-aos-delay="200">
+              <div className='relative mx-auto md:ml-0 max-w-max'>
+                <img
+                  className='absolute z-10 -right-8 -top-8 w-28 md:w-auto'
+                  src='flex-ui-assets/elements/circle3-yellow.svg'
+                  alt=''
+                />
+                <img
+                  className='absolute z-10 -left-10 -bottom-8 w-28 md:w-auto'
+                  src='flex-ui-assets/elements/dots3-blue.svg'
+                  alt=''
+                />
+                <img
+                  src='images/code.png'
+                  alt=''
+                />
+              </div>
+            </div>
+            <div className='w-full md:w-1/2 px-4'>
+              <span className='inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-full shadow-sm'>
+                How it works
+              </span>
+              <h2 className='mb-12 text-4xl md:text-5xl leading-tight font-bold tracking-tighter'>
+                Gain more insight into how people use your
+              </h2>
+              <div className='flex flex-wrap -mx-4 text-center md:text-left'>
+                <div className='w-full md:w-1/2 px-4 mb-8' data-aos="fade-up" data-aos-delay="200">
+                  <div className='inline-flex items-center justify-center mb-4 w-12 h-12 text-xl text-white bg-green-500 font-semibold rounded-full'>
+                    1
+                  </div>
+                  <h3 className='mb-2 text-xl font-bold'>Mobile App</h3>
+                  <p className='font-medium text-coolGray-500'>
+                    Get a complete sales dashboard in the cloud. See activity,
+                    revenue and social metrics all in one place.
+                  </p>
+                </div>
+                <div className='w-full md:w-1/2 px-4 mb-8' data-aos="fade-up" data-aos-delay="200">
+                  <div className='inline-flex items-center justify-center mb-4 w-12 h-12 text-xl text-white bg-green-500 font-semibold rounded-full'>
+                    2
+                  </div>
+                  <h3 className='mb-2 text-xl font-bold'>Web App</h3>
+                  <p className='font-medium text-coolGray-500'>
+                    Our calendar lets you know what is happening with customer
+                    and projects so you are able to control process.
+                  </p>
+                </div>
+                <div className='w-full md:w-1/2 px-4 mb-8' data-aos="fade-up" data-aos-delay="200">
+                  <div className='inline-flex items-center justify-center mb-4 w-12 h-12 text-xl text-white bg-green-500 font-semibold rounded-full'>
+                    3
+                  </div>
+                  <h3 className='mb-2 text-xl font-bold'>Web site</h3>
+                  <p className='font-medium text-coolGray-500'>
+                    End to End Business Platform, Sales Management, Marketing
+                    Automation, Help Desk and many more
+                  </p>
+                </div>
+                <div className='w-full md:w-1/2 px-4' data-aos="fade-up" data-aos-delay="200">
+                  <div className='inline-flex items-center justify-center mb-4 w-12 h-12 text-xl text-white bg-green-500 font-semibold rounded-full'>
+                    4
+                  </div>
+                  <h3 className='mb-2 text-xl font-bold'>Data analytics</h3>
+                  <p className='font-medium text-coolGray-500'>
+                    A tool that lets you build a dream website even if you know
+                    nothing about web design or programming.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      </main>
   );
 }
  

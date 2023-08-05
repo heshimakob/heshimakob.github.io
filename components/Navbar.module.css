@@ -22,7 +22,7 @@
 
 /* Add an active class to highlight the current page */
 .topnav Link.active {
-  background-color: #a2ebd0 !important;
+  background-color: #242b28 !important;
   color: white !important;
 }
 
@@ -55,13 +55,23 @@
         float: right !important;
   display: block !important; 
   color: #141313 !important;
-  text-align: center !important;
+  text-align: center!important;
   padding: 3px 3px !important;
   text-decoration: none !important;
   font-size: 10px !important;
     
 }
 
+.topnav img{
+  float: right !important;
+display: block !important; 
+color: #141313 !important;
+text-align: center !important;
+padding: 3px 3px !important;
+text-decoration: none !important;
+font-size: 10px !important;
+
+}
 }
 @media screen and (max-width: 600px) {
   .topnav Link:not(:first-child) {display:inline-block;}

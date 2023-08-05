@@ -3,7 +3,7 @@ import styles from './Navbar.module.css';
 const Navbar = () => {
     return ( 
         <section className='bg-white responsive' >
-      <nav className='fixed top-0 left-0 w-full flex justify-between p-6 px-4 border-b-1 bg-white ' style={{ backdropFilter: 'blur(10px)', 
+      <nav className='fixed top-0 left-0 w-full flex justify-between p-6 px-4 border-b-1 bg-white-300 ' style={{ backdropFilter: 'blur(10px)', 
       zIndex: '1'}}>
       <div className='flex justify-between items-center w-full'
       >
@@ -19,7 +19,7 @@ const Navbar = () => {
     </Link>
   </div>
 
-  <div className=' xl:block xl:w-1/3 justify-right'>
+  <div className=' xl:block xl:w-1/3 justify-right md:justify-right'>
     <div className={styles.topnav}>
     <ul className='flex justify-center'>
       <li className='mr-12'>
@@ -31,6 +31,15 @@ const Navbar = () => {
         <Link className={styles.hover_underline_animation} href='/contact'>
           Contacts
         </Link>
+      </li>
+      <li className='mr-12'>
+ 
+      <img
+        className='w-8 h-8  mr-12 rounded-full'
+        src='images/mode.png'
+        alt=''
+      />
+
       </li>
     </ul>
     </div>

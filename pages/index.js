@@ -25,7 +25,7 @@ const Home = () => {
           style={{
             
             backgroundImage:
-              'linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("images/hello.jpg")',
+              ' url("images/hello.jpg")',
             backgroundPosition: "center",
           }}
         >
@@ -37,7 +37,7 @@ const Home = () => {
 
               <div className="relative">
                 
-                <h2 className="text-2xl md:text-5xl font-semibold tracking-tighter text-white">
+                <h2 className="text-2xl md:text-5xl font-semibold tracking-tighter text-black">
                   Welcome <span className="text-green-300"> on my portofolio </span>
                 </h2>
               </div>
@@ -48,10 +48,10 @@ const Home = () => {
                 src="images/profile.jpeg"
                 alt=""
               />
-              <h3 className="mb-2 text-xl md:text-2xl font-semibold text-white">
+              <h3 className="mb-2 text-xl md:text-2xl font-semibold text-black">
                 Heshimakob
               </h3>
-              <span className="text-lg text-coolGray-500 font-medium text-white">
+              <span className="text-lg text-coolGray-500 font-medium text-black">
                 Developpeur full-stack &amp; Network performances
               </span>
             </div>
@@ -66,7 +66,7 @@ const Home = () => {
         <section
           className="py-24"
           style={{
-            background:"#F4F1F1",
+            background:"#FFFFFF",
             //background: "rgb(2,0,36)",
           //  background:
               //"linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,240,239,1) 0%, rgba(231,250,228,1) 95%)",
@@ -89,8 +89,8 @@ const Home = () => {
                 secure platform.
               </p>
               
-              <div className="flex flex-wrap -mx-4 mb-12 md:mb-20 text-left">
-              <div className="w-full md:w-1/2 px-4 mb-8 bg-white rounded-md " data-aos="fade-up" data-aos-delay="200">
+              <div className="flex flex-wrap -mx-4 mb-12 md:mb-20 bg-white text-left p-5">
+              <div className="w-full md:w-1/2 px-4 mb-8 bg-white rounded-md  p-10" data-aos="fade-up" data-aos-delay="200">
               <Link className="block mb-6 overflow-hidden rounded-md text-left bg-white" href="#">
                 <img className="w-full h-[200px] object-cover  rounded-xl"  src="images/images.jpeg" />
                 </Link>
@@ -107,7 +107,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-full md:w-1/2 px-4 mb-8 bg-white rounded-md " data-aos="fade-up" data-aos-delay="200">
+              <div className="w-full md:w-1/2 px-4 mb-8 bg-white  rounded-md  p-5" data-aos="fade-up" data-aos-delay="200">
               <Link className="block mb-6 overflow-hidden rounded-md text-left " href="#">
                 <img className="w-full h-[200px] object-cover  rounded-xl"  src="images/imagess.jpeg" />
                 </Link>
@@ -126,7 +126,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-full md:w-1/2 px-4 mb-8 bg-white rounded-md " data-aos="fade-up" data-aos-delay="200" >
+              <div className="w-full md:w-1/2 px-4 mb-8 bg-white rounded-md p-5" data-aos="fade-up" data-aos-delay="200" >
               <Link className="block mb-6 overflow-hidden rounded-md text-left " href="#">
                 <img className="w-full h-[200px] object-cover  rounded-xl"  src="images/imag.jpeg" />
                 </Link>
@@ -142,7 +142,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-full md:w-1/2 px-4 mb-8 bg-white rounded-md " data-aos="fade-up" data-aos-delay="200">
+              <div className="w-full md:w-1/2 px-4 mb-8 bg-white rounded-md p-5" data-aos="fade-up" data-aos-delay="200">
               <Link className="block mb-6 overflow-hidden rounded-md text-left bg-white" href="#">
                 <img className="w-full h-[200px] object-cover  rounded-xl"  src="images/meta.jpg" />
                 </Link>
