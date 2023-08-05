@@ -19,9 +19,9 @@ const Navbar = () => {
     </Link>
   </div>
 
-  <div className=' xl:block xl:w-1/3 justify-right md:justify-right'>
+  <div className='xl:block xl:w-1/3 md:ml-10 sm:ml-30 justify-right md:justify-right'>
     <div className={styles.topnav}>
-    <ul className='flex justify-center'>
+    <ul className='flex justify-center '>
       <li className='mr-12'>
         <Link className={styles.hover_underline_animation} href="/about">
           About

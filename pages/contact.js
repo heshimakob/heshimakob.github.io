@@ -18,7 +18,7 @@ const Contact = () => {
       className='py-24 md:pb-28 bg-white'
       style={{
       backgroundImage:
-      'linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("images/download.png")',
+      'url("images/hello.jpg")',
       backgroundPosition: 'center',
       }}
       >
@@ -38,7 +38,7 @@ const Contact = () => {
               <span className='inline-block py-px px-2 mb-4 text-xs leading-5 text-white-500 bg-green-100 font-medium uppercase rounded-9xl'>
                 Quotes
               </span>
-              <h2 className='text-2xl md:text-5xl font-semibold tracking-tighter text-white'>
+              <h2 className='text-2xl md:text-5xl font-semibold tracking-tighter text-black'>
                 The best solution for anyone who wants to work a flexible
                 schedule but still earn a full-time income.
               </h2>
@@ -50,10 +50,10 @@ const Contact = () => {
               src='images/profile.jpeg'
               alt=''
             />
-            <h3 className='mb-2 text-xl md:text-2xl font-semibold text-white'>
+            <h3 className='mb-2 text-xl md:text-2xl font-semibold text-black'>
               Heshima Kob
             </h3>
-            <span className='text-lg text-coolGray-500 font-medium text-white'>
+            <span className='text-lg text-coolGray-500 font-medium text-black'>
             Dev full-stack &amp; Network performances
             </span>
           </div>

@@ -163,6 +163,63 @@ const About = () => {
           </div>
         </div>
       </section>
+      <section
+        className='py-20 xl:pt-24 bg-white'
+        style={{
+          backgroundImage: 'url("flex-ui-assets/elements/pattern-white.svg")',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className='container px-4 mx-auto bg-blue'>
+          <h3 className='mb-8 text-center font-medium leading-6 text-coolGray-300'>
+          Our skills in programming languages
+          </h3>
+          <div className='flex flex-wrap justify-center -mx-4'>
+            <div className='w-1/2 md:w-1/3 lg:w-1/5 px-4 mb-8 lg:mb-0' data-aos="fade-up" data-aos-delay="200">
+              <img
+                className='mx-auto'
+                src='images/react.png'
+                alt=''
+              />
+            </div>
+            <div className='w-1/2 md:w-1/3 lg:w-1/5 px-4 mb-8 lg:mb-0' data-aos="fade-up" data-aos-delay="200">
+              <img
+                className='mx-auto'
+                src='images/next.png'
+                alt=''
+              />
+            </div>
+            <div className='w-1/2 md:w-1/3 lg:w-1/5 px-4 mb-8 lg:mb-0' data-aos="fade-up" data-aos-delay="200">
+              <img
+                className='mx-auto'
+                src='images/tail.png'
+                alt=''
+              />
+            </div>
+            <div className='w-1/2 md:w-1/3 lg:w-1/5 px-4 mb-8 md:mb-0' data-aos="fade-up" data-aos-delay="200">
+              <img
+                className='mx-auto'
+                src='images/sql.png'
+                alt=''
+              />
+            </div>
+            <div className='w-1/2 md:w-1/3 lg:w-1/5 px-4' data-aos="fade-up" data-aos-delay="200">
+              <img
+                className='mx-auto'
+                src='images/php.png'
+                alt=''
+              />
+            </div>
+            <div className='w-1/2 md:w-1/3 lg:w-1/5 px-4' data-aos="fade-up" data-aos-delay="200">
+              <img
+                className='mx-auto'
+                src='images/python.png'
+                alt=''
+              />
+            </div>
+          </div>
+        </div>
+      </section>
       </main>
   );
 }
