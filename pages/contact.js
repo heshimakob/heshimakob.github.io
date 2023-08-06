@@ -101,7 +101,7 @@ const Contact = () => {
                   className='text-lg md:text-xl text-green-500 hover:text-green-600 font-medium'
                   href="https://mail.google.com/mail/u/0/#inbox"
                 >
-                  heshimako@gmail.com
+                  heshimakob@gmail.com
                 </a>
               </div>
             </div>
