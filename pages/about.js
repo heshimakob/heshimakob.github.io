@@ -10,9 +10,9 @@ const About = () => {
   return (  
     <main className="main">
        <section
-        className='py-24 md:pb-28 bg-white'
+        className='py-24 md:pb-28 bg-white dark:bg-slate-800'
         style={{
-          backgroundImage: 'url("images/hello.jpg")',
+          //backgroundImage: 'url("images/hello.jpg")',
           backgroundPosition: 'center',
         }}
       >
@@ -84,9 +84,9 @@ const About = () => {
         </div>
       </section>
     <section
-        className='py-24 bg-white overflow-hidden'
+        className='py-24 bg-white overflow-hidden dark:bg-slate-700'
         style={{
-          backgroundColor: "#FFFFFF",
+         
           backgroundPosition: 'center',
         }}
       >
@@ -164,11 +164,8 @@ const About = () => {
         </div>
       </section>
       <section
-        className='py-20 xl:pt-24 bg-white'
-        style={{
-          backgroundImage: 'url("flex-ui-assets/elements/pattern-white.svg")',
-          backgroundPosition: 'center',
-        }}
+        className='py-20 xl:pt-24 bg-white dark:bg-slate-900'
+       
       >
         <div className='container px-4 mx-auto bg-blue'>
           <h3 className='mb-8 text-center font-medium leading-6 text-coolGray-300'>

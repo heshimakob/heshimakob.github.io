@@ -18,8 +18,8 @@ const Navbar = () => {
 
   return (
     <section className=' bg-white responsive'>
-   <nav className={`fixed top-0 left-0 w-full flex justify-between p-6 px-4 border-b-1 ${dark ? 'bg-black-300 text-white-300' : 'bg-white-300'}`} style={{ backdropFilter: 'blur(10px)', zIndex: '1' }}>
-        <div className='flex justify-between items-center w-full'>
+    <nav         className='fixed top-0 left-0 w-full flex justify-between p-6 px-4 border-b-1 bg-white-300 dark:bg-slate-900' style={{ backdropFilter: 'blur(10px)', zIndex: '1' }}>
+        <div className='flex justify-between items-center w-full dark:bg-slate-900'>
           <div className='xl:w-1/3 flex items-center justify-center'>
             <Link className='flex items-center' href='/'>
               <img
@@ -48,7 +48,7 @@ const Navbar = () => {
                 </li>
                 <li className='mr-12'>
                 {currentTheme === 'dark' ? (
-  <button className='bg-black-700 hover:bg-black w-8 h-8 rounded-full border-green-400 border-2 '
+  <button className='mr-12 bg-black-700 hover:bg-black w-8 h-8 rounded-full border-green-400 border-2 '
     onClick={() => setTheme('light')}>
     {''}
     <img
@@ -58,7 +58,7 @@ const Navbar = () => {
     />
   </button>
 ) : (
-  <button className='bg-white hover:bg-black w-8 h-8 rounded-full border-green-400 border-2 '
+  <button className='mr-12 bg-white hover:bg-black w-8 h-8 rounded-full border-green-400 border-2 '
     onClick={() => setTheme('dark')}>
     {''}
     <img

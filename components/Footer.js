@@ -2,17 +2,17 @@ import React from "react"
 const Footer = () => {
     return ( 
         <section
-        className='bg-white'
+        className='bg-white dark:bg-slate-800'
         style={{
-          background: "rgb(2,0,36)",
-          background:
-            "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,240,239,1) 0%, rgba(231,250,228,1) 95%)",
+          //background: "rgb(2,0,36)",
+          //background:
+            //"linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,240,239,1) 0%, rgba(231,250,228,1) 95%)",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "left top",
         }}
       >
         
-        <div className='container px-4 mx-auto'>
+        <div className='container px-4 mx-auto dark:bg-slate-800'>
         <div className="mt-2 text-center">
                   <a
                     className='inline-block mr-8 text-black-500 hover:text-black-600'

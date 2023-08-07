@@ -21,16 +21,16 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <section
-          className="py-24 md:pb-28 "
+          className="py-24 md:pb-28 bg-gray-200  dark:bg-slate-800"
           style={{
             
-            backgroundImage:
-              ' url("images/hello.jpg")',
+            //backgroundImage: ' url("images/hello.jpg")',
             backgroundPosition: "center",
+          
           }}
         >
     
-          <div className="container px-4 mx-auto">
+          <div className="container px-4 mx-auto ">
             <div className="relative max-w-5xl sm:px-6 pb-6 mb-10 mx-auto text-left">
               <span className="inline-block py-px px-2 mb-4 text-xs leading-5 text-white-500  font-medium ">Hello</span>
              
@@ -38,7 +38,7 @@ const Home = () => {
               <div className="relative">
                 
                 <h2 className="text-2xl md:text-5xl font-semibold tracking-tighter text-black">
-                  Welcome <span className="text-green-300"> on my portofolio </span>
+                Under maintenance  <span className="text-green-300"> for smooth interfaces</span>
                 </h2>
               </div>
             </div>
@@ -64,9 +64,9 @@ const Home = () => {
         </section>
 
         <section
-          className="py-24"
+          className="py-24  dark:bg-slate-900 bg-white"
           style={{
-            background:"#FFFFFF",
+        
             //background: "rgb(2,0,36)",
           //  background:
               //"linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,240,239,1) 0%, rgba(231,250,228,1) 95%)",
@@ -74,8 +74,8 @@ const Home = () => {
             backgroundPosition: "left top",
           }}
         >
-          <div className="container px-4 mx-auto">
-            <div className="md:max-w-5xl mx-auto mb-16 text-left">
+          <div className="container px-4 mx-auto dark:bg-slate-900">
+            <div className="md:max-w-5xl mx-auto mb-16 text-left  dark:bg-slate-900">
               <span className="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-full shadow-sm">
                 Articles
               </span>
@@ -89,8 +89,8 @@ const Home = () => {
                 secure platform.
               </p>
               
-              <div className="flex flex-wrap -mx-4 mb-12 md:mb-20 bg-white text-left p-5">
-              <div className="w-full md:w-1/2 px-4 mb-8 bg-white rounded-md  p-10" data-aos="fade-up" data-aos-delay="200">
+              <div className="flex flex-wrap -mx-4 mb-12 md:mb-20 bg-white text-left p-5  dark:bg-slate-900">
+              <div className="w-full md:w-1/2 px-4 mb-8 bg-white rounded-md  p-10  dark:bg-slate-900" data-aos="fade-up" data-aos-delay="200">
               <Link className="block mb-6 overflow-hidden rounded-md text-left bg-white" href="#">
                 <img className="w-full h-[200px] object-cover  rounded-xl"  src="images/images.jpeg" />
                 </Link>
@@ -107,7 +107,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-full md:w-1/2 px-4 mb-8 bg-white  rounded-md  p-5" data-aos="fade-up" data-aos-delay="200">
+              <div className="w-full md:w-1/2 px-4 mb-8 bg-white  dark:bg-slate-900 rounded-md  p-5" data-aos="fade-up" data-aos-delay="200">
               <Link className="block mb-6 overflow-hidden rounded-md text-left " href="#">
                 <img className="w-full h-[200px] object-cover  rounded-xl"  src="images/imagess.jpeg" />
                 </Link>
@@ -126,7 +126,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-full md:w-1/2 px-4 mb-8 bg-white rounded-md p-5" data-aos="fade-up" data-aos-delay="200" >
+              <div className="w-full md:w-1/2 px-4 mb-8 bg-white  dark:bg-slate-900 rounded-md p-5" data-aos="fade-up" data-aos-delay="200" >
               <Link className="block mb-6 overflow-hidden rounded-md text-left " href="#">
                 <img className="w-full h-[200px] object-cover  rounded-xl"  src="images/imag.jpeg" />
                 </Link>
@@ -142,7 +142,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-full md:w-1/2 px-4 mb-8 bg-white rounded-md p-5" data-aos="fade-up" data-aos-delay="200">
+              <div className="w-full md:w-1/2 px-4 mb-8 bg-white  dark:bg-slate-900 rounded-md p-5" data-aos="fade-up" data-aos-delay="200">
               <Link className="block mb-6 overflow-hidden rounded-md text-left bg-white" href="#">
                 <img className="w-full h-[200px] object-cover  rounded-xl"  src="images/meta.jpg" />
                 </Link>
