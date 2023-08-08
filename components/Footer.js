@@ -1,8 +1,9 @@
 import React from "react"
 const Footer = () => {
     return ( 
+      <> 
         <section
-        className='bg-white dark:bg-slate-800'
+        className='bg-gray-100 dark:bg-slate-800'
         style={{
           //background: "rgb(2,0,36)",
           //background:
@@ -110,6 +111,7 @@ const Footer = () => {
           </p>
         </div>
       </section>
+      </>
      )
 }
  

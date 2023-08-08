@@ -17,8 +17,8 @@ stopDelayMs = { 200 }
 height = { 7 }  
 showOnShallow = { true }  
 / >
-  <ThemeProvider enableSystem={true} attribute='class'>
-  <Layout>  <Component {...pageProps} /></Layout>
+  <ThemeProvider  enableSystem={true} attribute='class'>
+  <Layout>  <Component  {...pageProps} /></Layout>
   </ThemeProvider>
  
   </>

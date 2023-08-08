@@ -17,6 +17,7 @@ const Navbar = () => {
   const currentTheme = theme === 'system' ? 'light' : theme;
 
   return (
+    <>
     <section className=' bg-white responsive'>
     <nav         className='fixed top-0 left-0 w-full flex justify-between p-6 px-4 border-b-1 bg-white-300 dark:bg-slate-900' style={{ backdropFilter: 'blur(10px)', zIndex: '1' }}>
         <div className='flex justify-between items-center w-full dark:bg-slate-900'>
@@ -75,6 +76,7 @@ const Navbar = () => {
         </div>
       </nav>
     </section>
+    </>
   );
 };
 

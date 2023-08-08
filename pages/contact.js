@@ -15,10 +15,10 @@ const Contact = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section
-      className='py-24 md:pb-28 bg-white'
+      className='py-24 md:pb-28 bg-gray-100 dark:bg-slate-700'
       style={{
-      backgroundImage:
-      'url("images/hello.jpg")',
+      //backgroundImage:
+      //'url("images/hello.jpg")',
       backgroundPosition: 'center',
       }}
       >
@@ -66,9 +66,9 @@ const Contact = () => {
       </section>
 
       <section
-        className='py-20 md:py-24 bg-white'
+        className='py-20 md:py-24 bg-white dark:bg-slate-900'
         style={{
-          backgroundImage: 'url("flex-ui-assets/elements/pattern-white.svg")',
+          //backgroundImage: 'url("flex-ui-assets/elements/pattern-white.svg")',
           backgroundPosition: 'center',
         }}
       >

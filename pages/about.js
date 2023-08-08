@@ -10,7 +10,7 @@ const About = () => {
   return (  
     <main className="main">
        <section
-        className='py-24 md:pb-28 bg-white dark:bg-slate-800'
+        className='py-24 md:pb-28 bg-gray-100 dark:bg-slate-800'
         style={{
           //backgroundImage: 'url("images/hello.jpg")',
           backgroundPosition: 'center',

@@ -11,11 +11,7 @@ const Home = () => {
     });
   }, []);
     return ( 
-        <main className="main"
-        styele={{
-            backgroundColor:"#F4F1F1",
-        }}
-        >
+      <> 
           <Head>
         <title>Heshima magalabaha ezra/Home</title>
         <link rel="icon" href="/favicon.ico" />
@@ -171,7 +167,8 @@ const Home = () => {
             </div>
             </div>
         </section>
-      </main>
+
+      </>
      );
 }
  
