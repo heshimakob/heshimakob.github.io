@@ -2,6 +2,7 @@ import Link from 'next/link';
 import styles from './Navbar.module.css';
 import { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
+import Head from "next/head";
 
 const Navbar = () => {
   const dark = true;
@@ -18,6 +19,10 @@ const Navbar = () => {
 
   return (
     <>
+    <Head>
+        <link rel="icon" href="/favicon.ico" />
+        <script src='./scripts/NavScript.js'/>
+      </Head>
     <section className=' bg-white responsive'>
     <nav         className='fixed top-0 left-0 w-full flex justify-between p-6 px-4 border-b-1 bg-white-300 dark:bg-slate-900' style={{ backdropFilter: 'blur(10px)', zIndex: '1' }}>
         <div className='flex justify-between items-center w-full dark:bg-slate-900'>
@@ -32,6 +37,9 @@ const Navbar = () => {
                 Heshimakob
               </span>
             </Link>
+            <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+        <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+      </span>
           </div>
 
           <div className='xl:block xl:w-1/3 md:ml-10 sm:ml-30 justify-right md:justify-right'>
