@@ -70,6 +70,11 @@ function NavBar() {
                 <div className={styles.topnav}>
                 <ul className="h-screen md:h-auto items-center justify-center md:flex ">
                 <li className="pb-6 text-xl  py-2 md:px-6 text-center border-b-2 md:border-b-0  ">
+                <Link className={styles.hover_underline_animation} href='/'>
+                    Home
+                  </Link>
+                </li>
+                <li className="pb-6 text-xl  py-2 md:px-6 text-center border-b-2 md:border-b-0  ">
                 <Link className={styles.hover_underline_animation} href='/about'>
                     About
                   </Link>

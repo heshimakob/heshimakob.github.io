@@ -96,7 +96,7 @@ const About = () => {
               <div className='relative mx-auto md:ml-0 max-w-max'>
                 <img
                   className='absolute z-10 -right-8 -top-8 w-28 md:w-auto'
-                  src='flex-ui-assets/elements/circle3-yellow.svg'
+                  src='images/yello-circle.svg'
                   alt=''
                 />
                 <img
