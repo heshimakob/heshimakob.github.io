@@ -6,8 +6,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@ionic/react": "^7.2.3",
     "aos": "^2.3.4",
     "framer-motion": "^10.12.22",
+    "ionicons": "^7.1.2",
     "next": "latest",
     "next-themes": "^0.2.1",
     "nextjs-progressbar": "^0.0.16",
