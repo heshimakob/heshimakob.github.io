@@ -68,19 +68,19 @@ function NavBar() {
             >
                 <div className={styles.topnav}>
                 <ul className="h-screen md:h-auto items-center justify-center md:flex ">
-                <li className="pb-6 text-xl text-white py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
+                <li className="pb-6 text-xl  py-2 md:px-6 text-center border-b-2 md:border-b-0  ">
                 <Link className={styles.hover_underline_animation} href='/about'>
                     About
                   </Link>
                 </li>
-                <li className="pb-6 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
+                <li className="pb-6 text-xl py-2 px-6 text-center  border-b-2 md:border-b-0 ">
                 <Link className={styles.hover_underline_animation} href='/contact'>
                     Contacts
                   </Link>
                 </li>
-                <li className="pb-6 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
+                <li className="pb-6 text-xl  py-2 px-6 text-center  border-b-2 md:border-b-0">
                 {currentTheme === 'dark' ? (
-  <button className='mr-12 bg-black-700 hover:bg-black w-8 h-8 rounded-full border-green-400 border-2 '
+  <button className='mr-12 bg-black-700 hover:bg-black w-8 h-8 rounded-full border-white-400 border-2 '
     onClick={() => setTheme('light')}>
     {''}
     <img
@@ -90,7 +90,7 @@ function NavBar() {
     />
   </button>
 ) : (
-  <button className='mr-12 bg-white hover:bg-black w-8 h-8 rounded-full border-green-400 border-2 '
+  <button className='mr-12 bg-white hover:bg-blue-300 w-8 h-8 rounded-full border-white-400 border-2 '
     onClick={() => setTheme('dark')}>
     {''}
     <img
@@ -100,7 +100,7 @@ function NavBar() {
     />
   </button>
 )}
-                </li>
+              </li>
               </ul>
                 </div>
               

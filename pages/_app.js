@@ -11,10 +11,10 @@ export default function App({ Component, pageProps }) {
   return  ( 
     <>   
 < NextNProgress  
-color = "rgb(2,0,36)" 
+color = "#3b87a7" 
 startPosition = { 1 }  
-stopDelayMs = { 200 }  
-height = { 7 }  
+stopDelayMs = { 500 }  
+height = { 8 }  
 showOnShallow = { true }  
 / >
   <ThemeProvider  enableSystem={true} attribute='class'>
