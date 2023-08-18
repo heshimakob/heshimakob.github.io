@@ -63,12 +63,12 @@ function NavBar() {
           </div>
           <div>
             <div
-              className={`flex-1 justify-self-center pb-3 mt-8 md:bg-slate-900 md:block md:pb-0 md:mt-0 ${
+              className={`flex-1 justify-self-center pb-3 mt-8  md:block md:pb-0 md:mt-0 ${
                 navbar ? 'p-12 md:p-0 block' : 'hidden'
               }`}
             >
                 <div className={styles.topnav}>
-                <ul className="h-screen md:h-auto items-center justify-center md:flex ">
+                <ul className="h-screen md:h-auto md:bg-slate-900 items-center justify-center md:flex ">
                 <li className="pb-6 text-xl  py-2 md:px-6 text-center border-b-2 md:border-b-0  ">
                 <Link className={styles.hover_underline_animation} href='/'>
                     Home
