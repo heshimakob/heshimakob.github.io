@@ -35,12 +35,11 @@ const Contact = () => {
               alt=''
             />
             <div className='relative'>
-              <span className='inline-block py-px px-2 mb-4 text-xs leading-5 text-white-500 bg-green-100 font-medium uppercase rounded-9xl'>
-                Quotes
+              <span className='inline-block py-px px-2 mb-4 text-xs leading-5 text-white-500 bg-green-100 dark:colo:white-100 font-medium uppercase rounded-9xl'>
+                hello
               </span>
               <h2 className='text-2xl md:text-5xl font-semibold tracking-tighter text-black'>
-                The best solution for anyone who wants to work a flexible
-                schedule but still earn a full-time income.
+              To contact us it's simple to use the methods described below, welcome once again
               </h2>
             </div>
           </div>

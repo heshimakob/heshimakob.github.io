@@ -46,7 +46,7 @@ const About = () => {
             </div>
             <div className='w-full lg:w-1/2 px-4'>
               <span className='inline-block py-px px-2 sm:ml-6 md:mb-16 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-9xl'>
-                Quotes
+               Sourir
               </span>
               <div className='relative pt-12 pb-6 sm:p-6 mb-8'>
                 <img
@@ -61,8 +61,7 @@ const About = () => {
                 />
                 <div className='relative'>
                   <h2 className='text-2xl md:text-4xl font-semibold tracking-tighter'>
-                    The best solution for anyone who wants to work a flexible
-                    schedule but still earn a full-time income.
+                  A better solution for any type of technological creativity
                   </h2>
                 </div>
               </div>
