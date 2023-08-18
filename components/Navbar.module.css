@@ -32,7 +32,7 @@
 }
 .topnav .hover_underline_animation{
     position: relative;
-    color: gray;
+    color: #131414;
     text-decoration: none;
   }
   .hover_underline_animation::after {
@@ -42,7 +42,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #131414 !important;
+    background-color:  #3b87a7 !important;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
     transform: scaleX(0);
