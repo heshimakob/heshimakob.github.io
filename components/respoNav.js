@@ -35,7 +35,7 @@ const Navbar = () => {
                 src='images/profile.jpeg'
                 alt=''
               />
-              <span className=' xl:block xl:w-1/3 inline-block text-black-400'>
+              <span className=' xl:block xl:w-1/3 inline-block text-black-300'>
                 Heshimakob
               </span>
             </Link>
