@@ -15,7 +15,7 @@ const Contact = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section
-      className='py-24 md:pb-28 bg-gray-100 dark:bg-slate-700'
+      className='py-24 md:pb-28 bg-gray-100  dark:bg-slate-700'
       style={{
       //backgroundImage:
       //'url("images/hello.jpg")',
