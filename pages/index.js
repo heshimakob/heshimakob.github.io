@@ -104,7 +104,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="w-full md:w-1/2 px-4 mb-8 bg-white  dark:bg-slate-900 rounded-md  p-5" data-aos="fade-up" data-aos-delay="200">
-              <Link className="block mb-6 overflow-hidden rounded-md text-left " href="#">
+              <Link className="block mb-6 overflow-hidden rounded-md text-left " href="/Art1">
                 <img className="w-full h-[200px] object-cover  rounded-xl"  src="images/imagess.jpeg" />
                 </Link>
                 <div className="flex-1 p-3">
@@ -113,7 +113,7 @@ const Home = () => {
                       <p className="mb-3 text-xs text-gray-500 font-semibold">6 months ago</p>
                       <div className={styles.lien}>
                       
-                      <Link className={styles.hover_underline_animation}  href="#"> Unicef ​​hackathon project in partnership with rabshstability,
+                      <Link className={styles.hover_underline_animation}  href="/Art1"> Unicef ​​hackathon project in partnership with rabshstability,
                        on nutrition exposure: a cpn management app</Link>
           
                     </div>
