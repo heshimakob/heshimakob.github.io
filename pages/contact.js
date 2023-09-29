@@ -53,7 +53,7 @@ const Contact = () => {
               Heshima Kob
             </h3>
             <span className='text-lg text-coolGray-500 font-medium text-black'>
-            Dev full-stack &amp; Network performances
+            Dev full-stack &amp; Analyst 
             </span>
           </div>
           <div className='text-center'>
@@ -129,10 +129,10 @@ const Contact = () => {
                   Lorem ipsum dolor sit amet
                 </p>
                 <p className='text-lg md:text-xl text-green-500 font-medium'>
-                  +250790696440
+                +243999401974 
                 </p>
                 <p className='text-lg md:text-xl text-green-500 font-medium'>
-                  +243999401974
+                   +250790696440
                 </p>
               </div>
             
@@ -162,10 +162,10 @@ const Contact = () => {
                   Lorem ipsum dolor sit amet
                 </p>
                 <p className='text-lg md:text-xl font-medium text-green-500'>
-                  Rwanda, KIgali
+                RDC, Goma  
                 </p>
                 <p className='text-lg md:text-xl font-medium text-green-500'>
-                  RDC, Goma
+                    Rwanda, KIgali
                 </p>
               </div>
               
