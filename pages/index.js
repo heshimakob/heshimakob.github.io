@@ -33,7 +33,7 @@ const Home = () => {
 
               <div className="relative">
                 
-                <h2 className="text-2xl md:text-5xl font-semibold tracking-tighter text-black">
+                <h2 className="text-2xl md:text-5xl font-semibold tracking-tighter text-white">
                 Under maintenance  <span className="text-green-300"> for smooth interfaces</span>
                 </h2>
               </div>
