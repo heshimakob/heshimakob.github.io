@@ -34,7 +34,7 @@ const Home = () => {
               <div className="relative">
                 
                 <h2 className="text-2xl md:text-5xl font-semibold tracking-tighter text-white">
-                Under maintenance  <span className="text-green-300"> for smooth interfaces</span>
+                Welcome  <span className="text-green-300"> discover new horizons thanks to technology</span>
                 </h2>
               </div>
             </div>
@@ -48,7 +48,7 @@ const Home = () => {
                 Heshimakob
               </h3>
               <span className="text-lg text-coolGray-500 font-medium text-black">
-                Developpeur full-stack &amp; Network performances
+                Developpeur full-stack &amp; Data Analyst
               </span>
             </div>
             <div className="text-center">
