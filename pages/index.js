@@ -44,10 +44,10 @@ const Home = () => {
                 src="images/profile.jpeg"
                 alt=""
               />
-              <h3 className="mb-2 text-xl md:text-2xl font-semibold text-black">
+              <h3 className="mb-2 text-xl md:text-2xl font-semibold text-black  dark:text-white">
                 Heshimakob
               </h3>
-              <span className="text-lg text-coolGray-500 font-medium text-black">
+              <span className="text-lg text-coolGray-500 font-medium text-green-300">
                 Developpeur full-stack &amp; Data Analyst
               </span>
             </div>
