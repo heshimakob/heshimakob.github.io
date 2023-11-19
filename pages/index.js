@@ -34,7 +34,7 @@ const Home = () => {
               <div className="relative">
                 
                 <h2 className="text-2xl md:text-5xl font-semibold tracking-tighter text-white">
-                Welcome  <span className="text-green-300"> We are currently undergoing maintenance</span>
+                Welcome !!! <span className="text-green-300"> We are currently undergoing maintenance</span>
                 </h2>
               </div>
             </div>

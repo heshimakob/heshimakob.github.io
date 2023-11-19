@@ -34,7 +34,7 @@ const Art1=()=>{
                 <div className="flex-1 p-3">
                   <div className="flex flex-col justify-between h-full">
                     <div className="flex-initial mb-8">
-                      <p className="mb-3 text-xs text-gray-500 font-semibold">3 days ago</p>
+                      <p className="mb-3 text-xs text-gray-500 font-semibold">5 days ago</p>
                       <div className={styles.lien}>
                       <Link className={styles.hover_underline_animation}  href="#">hackathon, meta in the city of Goma / DRC, implementation of an application 
                       for reading and viewing 3D objects and augmented reality </Link>
